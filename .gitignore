@@ -32,3 +32,25 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# PWA 関連ファイルの自動生成ファイルを追加
+**/public/precache.*.*.js
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/precache.*.*.js.map
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# ESLint のキャッシュファイルを追加
+.eslintcache
+
+# vscode設定ファイルを追加
+.vscode/*
+
+# Storybook のビルドディレクトリを追加
+storybook-static
+
+# Storyshots の差分ディレクトリを追加
+src/storyshots/__snapshots__/__diff_output__

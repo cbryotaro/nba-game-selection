@@ -1,0 +1,32 @@
+{
+    "theme_color": "#01579B",
+    "background_color": "#FFFFFF",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/",
+    "name": "NBA\u30b2\u30fc\u30e0\u30bb\u30ec\u30af\u30b7\u30e7\u30f3",
+    "short_name": "NBA\u30bb\u30ec\u30af\u30b7\u30e7\u30f3",
+    "description": "NBA\u306e\u4eca\u4e00\u756a\u71b1\u3044\u30b2\u30fc\u30e0\u3092\u624b\u8efd\u306b\u898b\u3064\u3051\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
