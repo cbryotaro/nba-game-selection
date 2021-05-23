@@ -1,5 +1,6 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { SITE_TITLE } from './index'
 
 interface MyDocumentInterface {
   url: string
@@ -9,7 +10,7 @@ interface MyDocumentInterface {
 
 class MyDocument extends Document implements MyDocumentInterface {
   url = process.env.NEXT_PUBLIC_SITE_URL || ''
-  title = 'NBA Gaame Selection'
+  title = SITE_TITLE
   description =
     'NBAで今一番熱い試合を見つけよう！NBAの試合情報を一覧表示します。怪我人の有無や実力の拮抗が一目でわかるため、見るべき試合を手軽に選ぶことができます。'
 
