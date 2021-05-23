@@ -9,7 +9,7 @@ interface MyDocumentInterface {
 
 class MyDocument extends Document implements MyDocumentInterface {
   url = process.env.NEXT_PUBLIC_SITE_URL || ''
-  title = 'NBAゲームセレクション'
+  title = 'NBA Gaame Selection'
   description =
     'NBAで今一番熱い試合を見つけよう！NBAの試合情報を一覧表示します。怪我人の有無や実力の拮抗が一目でわかるため、見るべき試合を手軽に選ぶことができます。'
 
@@ -17,7 +17,6 @@ class MyDocument extends Document implements MyDocumentInterface {
     return (
       <Html lang="ja-JP">
         <Head>
-          {/* `<Head>` の内容は必要に応じて変更 */}
           <meta name="description" content={this.description} />
           <meta name="theme-color" content="#01579B" />
           <meta property="og:type" content="website" />
