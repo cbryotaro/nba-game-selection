@@ -1,9 +1,17 @@
 import React from 'react'
-import { NextPage } from 'next'
+import { NextPage, GetServerSideProps } from 'next'
 import Head from 'next/head'
 import styles from 'styles/Home.module.scss'
-
 export const SITE_TITLE = 'NBA Gaame Selection'
+
+// export const getServerSideProps: GetServerSideProps = async () => {
+//   // Fetch data from external API
+//   const res = await fetch(`https://.../data`)
+//   const data = await res.json()
+
+//   // Pass data to the page via props
+//   return { props: { data } }
+// }
 
 const Home: NextPage = () => {
   const games = [
